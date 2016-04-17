@@ -1,0 +1,24 @@
+
+<div class="jumbotron">
+    <h1>Bakufu</h1>
+    <p>
+        Welcome! Bakufu is Awyeah. 
+    </p>
+</div>
+
+
+
+<script>
+onClusters(function(clusters) {
+	$("#numClusters").html(clusters.length);
+    if (clusters.length > 0) {
+        $("#clustersFound").show();
+    } else {
+        $("#noClustersFound").show();
+    }
+});
+
+$(document).ready(function () {
+
+});
+</script>
